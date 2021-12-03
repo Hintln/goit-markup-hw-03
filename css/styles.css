@@ -50,7 +50,8 @@ address{
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding: 15px 0px;
+    padding-left: 15px;
+    padding-right: 15px;
 }   
 
 /* == header == */
@@ -100,7 +101,8 @@ address{
     color: var(--accent-color);
 }
 
-.link-box-header{
+.link-box-header,
+.link-box-mail{
     color: var(--secondary-text-color);
     font-weight: 500;
     font-size: 14px;
