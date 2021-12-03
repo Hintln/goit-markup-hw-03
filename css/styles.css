@@ -4,6 +4,17 @@
 /*  #2196F3 - accent*/
 /*  #E5E5E5 - bc color*/ 
 /*  rgba(255, 255, 255, 0.6); - contacts*/
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
 :root{
     --main-text-color: #212121;
     --secondary-text-color:  #757575;
