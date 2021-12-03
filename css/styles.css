@@ -31,6 +31,7 @@ html{
       letter-spacing: 0.03em; 
       color: var(--secondary-text-color); 
       background-color: var(--background-color);
+      margin: 0px;
     }
 
 ul{
@@ -47,6 +48,8 @@ address{
 
 .container{
     width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* == header == */
