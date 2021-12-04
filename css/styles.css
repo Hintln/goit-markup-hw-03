@@ -99,6 +99,14 @@ address{
     border-bottom: 1px solid #ECECEC;
 }
 
+.navbar-portfolio{
+     display: flex;
+     align-items: center;
+     border-bottom: 1px solid #ECECEC;
+     margin-bottom: 94px;
+
+}
+
 .nav-link{
     display: block;
     padding-top: 32px;
@@ -216,6 +224,7 @@ margin-left: auto;
     margin-bottom: 94px;
 }
 
+
 .services-item{
     width: 270px;
 }
@@ -227,11 +236,8 @@ margin-left: auto;
 .services-item+.services-item{
     margin-left: 30px;
     align-items: baseline;
-    text-align: center;
-    
+    text-align: center;  
 }
-
-
 
 
 .services-signature{
@@ -242,6 +248,22 @@ margin-left: auto;
     letter-spacing: 0.03em; 
     text-align: left;
 }
+
+.section-filter{
+    margin-bottom: 34px;
+}
+
+.filter-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.filter-list+.filter-list{
+    margin-left: 8px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
 
 .link{
     color: var(--main-text-color    );
