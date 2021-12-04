@@ -93,6 +93,11 @@ address{
     color: var(--accent-color);
 }
 
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
 .nav-link{
     display: block;
     padding-top: 32px;
@@ -113,6 +118,7 @@ address{
 
 .nav-links{
     display: flex;
+    margin-left: 93px;
 }
 
 .nav-item + .nav-item{
@@ -121,6 +127,7 @@ address{
 
 .connect-nav{
 display: flex;
+margin-left: auto;
 }
 
 
