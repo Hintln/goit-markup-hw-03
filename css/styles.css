@@ -128,9 +128,11 @@ address{
 
 
 /* ===main=== */
-.hero{
+.section{
+    margin-bottom: 94px;
     text-align: center;
 }
+
 
 .hero-title{
     color: #ffffff;
@@ -153,7 +155,6 @@ address{
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
-
 }
 
 .hero-button:hover,
@@ -180,6 +181,9 @@ address{
     background-color: var(--accent-color);
 }
 
+.services-list{
+    margin-bottom: 94px;
+}
 
 .services-signature{
     color: var(--secondary-text-color);
