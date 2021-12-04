@@ -208,8 +208,24 @@ margin-left: auto;
 }
 
 .services-list{
+    display: flex;
     margin-bottom: 94px;
 }
+
+.services-item{
+    width: 270px;
+}
+
+
+.services-item+.services-item{
+    margin-left: 30px;
+    align-items: baseline;
+    text-align: center;
+    
+}
+
+
+
 
 .services-signature{
     color: var(--secondary-text-color);
