@@ -227,7 +227,6 @@ margin-left: auto;
 
 .services-list{
     display: flex;
-    flex-wrap: wrap;
     margin-bottom: 94px;
     
 }
