@@ -243,13 +243,24 @@ margin-left: auto;
 
 .services-list{
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 94px;
+    
 }
 
 .services-item{
     width: 270px;
 }
 
+.services-preview{
+    margin-right: 30px;
+    margin-bottom: 30px; 
+       
+}
+
+.services-preview:nth-child(3n){
+    margin-right: 0px;
+}
 
 
 .services-image+.services-image{
@@ -262,7 +273,7 @@ margin-left: auto;
     text-align: center;  
 }
 
-.services-preview
+
 
 
 .services-signature{
