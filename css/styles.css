@@ -52,7 +52,7 @@ address{
 }
 
 .container{
-    width: 1200px;
+    width: 1230px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -243,7 +243,24 @@ margin-left: auto;
 
 .services-list{
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 94px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border: 0px;
+}
+
+.services-preview:nth-child(3n) {
+    margin-right: 0px;
+
+}
+
+.services-preview{
+   border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 .services-item{
