@@ -227,6 +227,7 @@ margin-left: auto;
 
 .services-list{
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 94px;
     
 }
@@ -238,8 +239,7 @@ margin-left: auto;
 
 .services-preview{
     margin-right: 30px;
-    margin-bottom: 30px; 
-       
+    margin-bottom: 30px;       
 }
 
 .services-preview:nth-child(3n){
