@@ -52,7 +52,7 @@ address{
 }
 
 .container{
-    width: 1200px;
+    width: 1230px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -231,12 +231,12 @@ margin-left: auto;
     flex-wrap: wrap;
     margin-bottom: 94px;
     justify-content: center;
-
-    
 }
 
 
+
 .services-item{
+    display: list-item;
     width: 270px;
 }
 
@@ -270,8 +270,12 @@ margin-left: auto;
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.03em; 
-    text-align: left;
+    text-align:left;
+    width: 270px;
+    text-align: center;
 }
+
+
 
 .section-filter{
     margin-bottom: 34px;
@@ -326,6 +330,12 @@ margin-left: auto;
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
+}
+
+
+
+.team{
+    background-color:  #F5F4FA;
 }
 
 .team-list{
