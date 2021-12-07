@@ -189,9 +189,6 @@ margin-left: auto;
     text-align:center;
 }
 
-
-
-
 .hero-button{
     margin-left: auto;
     margin-right: auto;
@@ -236,6 +233,8 @@ margin-left: auto;
     color: #ffffff;
     background-color: var(--accent-color);
 }
+
+
 
 .services-list{
     display: flex;
