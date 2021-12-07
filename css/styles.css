@@ -418,9 +418,15 @@ margin-left: 30px;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em; 
+    margin-top: 20px;
+    margin-bottom: 60px;
+    width: 231px;
+    height: 81px;
 }
 
-
+.footer-link:nth-last-child(1n+2){
+    margin-bottom: 9px;
+}
 
 .footer-info{
     color: rgba(255, 255, 255, 0.6);
@@ -430,4 +436,4 @@ margin-left: 30px;
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
-    
+   
