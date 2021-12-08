@@ -352,13 +352,27 @@ margin-left: auto;
     text-align: center;
 }
 .section-team{
-    margin-bottom: 94px;
+    background-color: #F5F4FA;
+    width: 1600px;
+    height: 648px;
 }
 
+.team-title{
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
 .team-list{
     display: flex;
-    width: 270px;
+    width: 1170px;
+    height: 368px;
     text-align: center;
+    background-color: var(--background-color);
 }
 
 .team-image{
