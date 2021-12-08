@@ -416,11 +416,15 @@ margin-left: 30px;
     line-height: 1.1;
     letter-spacing: 0.03em;
     margin-bottom: 20px;
+    width: 145px;
+    height: 31px;
 
 }
 
 .section-footer{
     background-color: #2F303A;
+    width: 1600px;
+    height: 252px;
 }
 
  .section-footer{
