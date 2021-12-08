@@ -252,10 +252,9 @@ margin-left: auto;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 94px;
-    justify-content: center;
-    
-    
+    justify-content: center;  
 }
+
 
 .services-item{
     display: list-item;
@@ -270,7 +269,8 @@ margin-left: auto;
     margin-bottom: 30px;  
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
-    box-sizing: border-box;     
+    box-sizing: border-box;  
+    text-align: left;   
 }
 
 .services-preview:nth-child(3n){
@@ -326,6 +326,15 @@ margin-left: auto;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    width: 370px;
+    height: 294px;
+    
+}
+
+.image-work{
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .signature{
@@ -334,7 +343,10 @@ margin-left: auto;
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.03em; 
-
+    text-align: left;
+    width: 322px;
+    height: 30px;
+    margin: 4px 24px 20px 24px;
 }
 
 
@@ -347,6 +359,20 @@ margin-left: auto;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 10px;
+    text-align: left;
+
+}
+
+.services-title
+{
+    color:var(--main-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    width: 322px;
+    height: 36px;
+    margin: 20px 24px 4px 24px;
 }
 
 .title{
@@ -386,7 +412,6 @@ margin-left: auto;
     width: 1170px;
     height: 368px;
     text-align: center;
-    bakground-color: var(--background-color);
 }
 
 .team-image{
