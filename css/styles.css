@@ -347,7 +347,6 @@ margin-left: auto;
 
 
 .section-team>.team-image{
-    background-color:  #F5F4FA;
     margin-right: 30px;
     text-align: center;
 }
@@ -372,16 +371,18 @@ margin-left: auto;
     width: 1170px;
     height: 368px;
     text-align: center;
-    background-color: var(--background-color);
+    bakground-color: var(--background-color);
 }
 
 .team-image{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    background: #FFFFFF;
 }
 
 .team-image+.team-image{
 margin-left: 30px;
+
 }
 
 
