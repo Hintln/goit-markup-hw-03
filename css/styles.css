@@ -102,11 +102,13 @@ address{
 
 .navbar{
     display: flex;
+    align-items: center;
     border-bottom: 1px solid #ECECEC;
 }
 
 .navbar-portfolio{
      display: flex;
+     align-items: center;
      border-bottom: 1px solid #ECECEC;
      margin-bottom: 94px;
 
