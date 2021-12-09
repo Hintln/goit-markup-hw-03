@@ -59,7 +59,7 @@ address{
     padding-right: 15px;
 }   
 
-.containe-porfolio{
+/*.containe-porfolio{
     width: 1230px;
     margin-left: auto;
     margin-right: auto;
@@ -71,7 +71,6 @@ address{
 .logo-page{
     color: #000;
     font-weight: 400;
-    font-weight: bold;
     font-size: 26px;
     line-height: 1.1;
     letter-spacing: 0.03em;
@@ -103,14 +102,11 @@ address{
 
 .navbar{
     display: flex;
-    align-items: center;
     border-bottom: 1px solid #ECECEC;
 }
 
 .navbar-portfolio{
      display: flex;
-     width: 1230px;
-     align-items: center;
      border-bottom: 1px solid #ECECEC;
      margin-bottom: 94px;
 
@@ -183,8 +179,6 @@ margin-left: auto;
     background-color: #2f303a;
     padding: 200px 0;
     margin-bottom: 94px;
-    width: 1600px;
-    height: 600px;
 }
 
 
@@ -393,7 +387,6 @@ margin-left: auto;
 }
 .section-team{
     background-color: #F5F4FA;
-    width: 1600px;
     height: 648px;
 }
 
@@ -464,14 +457,15 @@ margin-left: 30px;
 
 .section-footer{
     background-color: #2F303A;
-    width: 1600px;
-    height: 252px;
 }
 
  .section-footer{
     padding-top: 60px;
     padding-bottom: 60px;
  }
+
+
+
 
 .adress-link{
     color: #ffffff; 
@@ -480,10 +474,6 @@ margin-left: 30px;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em; 
-    margin-top: 20px;
-    margin-bottom: 60px;
-    width: 231px;
-    height: 81px;
 }
 
 .footer-link:nth-last-child(1n+2){
