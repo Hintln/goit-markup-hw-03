@@ -102,8 +102,8 @@ address{
     border-bottom: 1px solid #ECECEC;
 }
 
-.logo-active-page{
-    color:var(--accent-color)
+.active-page{
+    color:var(--accent-color);
     font-family: Raleway;
     font-style: normal;
     font-weight: 700;
